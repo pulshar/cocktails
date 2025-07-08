@@ -14,9 +14,9 @@ export default function Navbar() {
 	});
 	
 	navTween.fromTo('nav', { backgroundColor: 'transparent' }, {
-	 backgroundColor: '#00000050',
-	 backgroundFilter: 'blur(10px)',
-	 duration: 1,
+	 backgroundColor: '#000000b3',
+	 backdropFilter: 'blur(3px)',
+	 duration: 0.3,
 	 ease: 'power1.inOut'
 	});
  })
